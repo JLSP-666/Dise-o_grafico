@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*header 1 de la pagina*/
+header{
+    background-color: #24282B;   
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 125px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: #1292D3;
+}
+#TXT-LOG{
+    color: #1292D3;
+}
+nav{
+    justify-content: space-around;
+    width: 0px 500px;
+    margin: 0px 150px;
+    outline: invert;
+}
+a{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#actual{
+    color: #1292D3;
+}
+/*imagen de header*/
+.H1{
+    background: url(../assets/images/cabecera.jpg);
+    padding: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+#texto1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#texto2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style:normal;
+    padding-inline-end:100px; 
+    padding-inline-start:100px; 
+}
+/*header 2 de la apagina*/
+.H2{
+    background-color: #24282B;   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 125px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: #1292D3;
+}
+#cont1{
+    padding: 0px 0px 0px 100px;
+}
+#cont2{
+
+}
+#BTN-SEAR{
+    background-color: #E8491D;
+    border-color: #ffffff00;
+    padding: 5px 30px 5px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#search{
+    padding: 5px 20px 5px 20px;
+}
+.H3{
+    background-color: #24282B;   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 125px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+}
+/* Contenido de inicio */
+.article1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20vh ;
+    background-color: rgb(255, 255, 255);
+}
+/*contenido de nosotros*/
+.article2{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 40px 0px 40px;
+    padding: 20px 150px 20px 150px;
+    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #ffffff;
+}
+#section1{
+    background-color: #ffffff;
+    
+}
+#conten1{
+    text-align: left;
+    padding: 10px 30px 30px 30px;
+    margin: 10px 30px 30px 30px ;
+    background-color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    
+}
+#conten2{
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px ;
+    background-color:#35424A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 900px;
+}
+#imagen1{
+    align-items: start;
+    padding: 30px 30px 30px 10px;
+    margin: 30px 30px 30px 20px;
+    width: 900px;
+    
+    
+}
+#foto1{
+    height: 144;
+    width: 960px;
+}
+/*seccion 2 */
+aside{
+    text-align: left;
+    padding: 30px 50px 90px 30px;
+    margin: 40px 50px 20px 30px ;
+    background-color:#35424A;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+/*contenido de servicios*/
+.article3{
+    display: flex;
+    flex-direction: row;
+    size: 20vh ;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 120px 120px 120px;
+    padding: 0px 20px 0px 20px;
+    
+}
+#seccion1{
+    width: 3500px;
+    font-size: 20px;
+}
+#p1{
+    background-color: #E6E6E6;
+    text-align: left;
+    margin: 10px 10px 10px 1px;
+}
+#sub{
+    padding: 10px 10px 20px 10px;
+}
+#text1{
+    padding: 10px 10px 20px 10px;
+}
+#text2{
+    padding: 10px 10px 20px 10px;
+}
+/* contenidos de contacto */
+.article4{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 110px 10px 50px;
+    background-color: rgb(255, 255, 255);
+}
+#seccion3{
+    padding: 35px 50px 10px 50px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+}
+#textbox1{
+    width: 1200px;
+    height: 25px;
+    border-color: #CFCFCF;   
+}
+#textbox2{
+    width: 1200px;
+    height: 200px;
+    border-color: #CFCFCF;  
+}
+#botons{
+    margin: 20px 0px 0px 2.5px;
+    background-color: #E8491D;
+    color: white;
+    width: 1200px;
+    height: 50px;
+    border-color: #00000000;
+}
+#foto2{
+    height: 320px;
+    width: 480px;
+    margin: 20px 0px 40px 30px;
+}
+h2{
+    margin-top:20px;
+}
+/* PIE DE PAGINA  */
+footer{
+    background-color: #1293D4;
+    padding: 5vh;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
